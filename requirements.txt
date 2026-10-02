@@ -1,0 +1,25 @@
+# Hugging Face-based RAG evaluation dependencies
+# Install with: pip install -r requirements.txt
+
+python-dotenv>=1.0.0
+pandas>=2.0.0
+numpy>=1.26.0
+pydantic>=2.0.0
+transformers>=4.41.0
+sentence-transformers>=3.0.0
+torch>=2.3.0
+accelerate>=0.30.0
+datasets>=2.19.0
+huggingface_hub>=0.23.0
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-huggingface>=0.1.0
+faiss-cpu>=1.8.0
+chromadb>=0.5.0
+ragas>=0.1.0
+scikit-learn>=1.3.0
+jinja2>=3.0.0
+rich>=13.0.0
+# Optional for notebooks / local experimentation
+ipykernel>=6.29.0
+jupyter>=1.0.0
